@@ -1,7 +1,7 @@
 # namecard
 A digital namecard for me
 
-- During COVID, it's hard to talk without SHOUTING when I've got an FFP3 mask on and people can't see half my face.
+- During COVID while working at a hospital, it's hard to talk without SHOUTING when I've got an FFP3 mask on and people can't see half my face.
 - Talking and seeing my face is important to introduce myself to new people.
 - My name is hard to understand even when I'm shouting because I'm a BAME person and people aren't used to my name.
 - I can pull out this namecard on my phone to help introduce myself.

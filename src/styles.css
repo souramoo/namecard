@@ -46,7 +46,14 @@ html,
     display: flex;
     flex-direction: row;
   }
-  .text {
+  .App .text {
+    margin-left: 15px;
+  }
+  .App .face { width: 50vh; height: 50vh; }
+}
+
+@media (min-width: 900px) {
+  .App .text {
     margin-left: 60px;
   }
 }

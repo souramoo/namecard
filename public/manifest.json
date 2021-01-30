@@ -18,5 +18,6 @@
   "display": "fullscreen",
   "scope": "/",
   "theme_color": "#3367D6",
-  "description": "Namecard"
+  "description": "Namecard",
+  "orientation": "landscape"
 }

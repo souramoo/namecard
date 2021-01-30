@@ -18,7 +18,7 @@ export default function App() {
         {text[2] ? (
           ""
         ) : (
-          <Skeleton circle={true} height={"30vh"} width={"30vh"} />
+          <Skeleton circle={true} height={"100%"} width={"100%"} />
         )}
       </div>
       <div className="text">

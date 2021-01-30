@@ -41,7 +41,7 @@ html,
   font-weight: 500;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 730px) {
   .App {
     display: flex;
     flex-direction: row;

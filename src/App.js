@@ -7,7 +7,7 @@ export default function App() {
 
   setTimeout(() => {
     setText(["Souradip Mookerjee", "MB/PhD Student", "face.jpg"]);
-  }, 2000);
+  }, 1000);
 
   return (
     <div className="App">

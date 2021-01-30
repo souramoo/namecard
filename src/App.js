@@ -4,10 +4,13 @@ import Skeleton from "react-loading-skeleton";
 
 export default function App() {
   const [text, setText] = useState([]);
+  const metadata = ["Souradip Mookerjee", "MB/PhD Student", "face.jpg"];
 
-  setTimeout(() => {
-    setText(["Souradip Mookerjee", "MB/PhD Student", "face.jpg"]);
-  }, 1000);
+  const img = new Image();
+  img.onload = () => {
+    setTimeout(() => setText(metadata), 1000);
+  };
+  img.src = metadata[2];
 
   return (
     <div className="App">

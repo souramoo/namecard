@@ -6,7 +6,6 @@ html,
   align-items: center;
   height: 100%;
   width: 100%;
-  padding: 0 20px;
   background: white;
 }
 
@@ -25,6 +24,10 @@ html,
   background-size: cover;
   border-radius: 50%;
   margin: 0 auto;
+}
+
+.App .text {
+  padding: 0 20px;
 }
 
 .App h1 {

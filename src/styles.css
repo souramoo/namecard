@@ -54,5 +54,5 @@ body::after {
   height: 0;
   overflow: hidden;
   z-index: -1;
-  content: url(face.jpg);
+  content: url(../public/face.jpg);
 }

@@ -21,6 +21,6 @@ jobs:
         cache: 'yarn'
     - run: yarn install
     - run: npm run build
-    - run: mv dist _site
+    - run: mv build _site
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v3

@@ -19,7 +19,7 @@ jobs:
       with:
         node-version: 18.x
         cache: 'npm'
-    - run: npm i
+    - run: npm i --force
     - run: npm run build
     - run: mv dist _site
     - name: Upload artifact
